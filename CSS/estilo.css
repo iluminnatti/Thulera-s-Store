@@ -1,0 +1,137 @@
+/* Aluno: Marcos Túlio Barbosa Abreu */
+
+#imgalvo{
+  -webkit-mask-image: linear-gradient(black 25%, transparent 100%);
+}
+#colorp{
+  color: #DCDCDC;
+}
+.centraliza {
+    margin: 0 auto !important;
+    float: none !important;
+}
+@font-face {
+	font-family: armyforce;
+	src: url(../fontes/Base02.ttf)
+}
+@font-face {
+	font-family: assassin;
+	src: url(../fontes/Assassin.ttf)
+}
+#logo{
+  font-family: armyforce;
+}
+#rotation{
+  transform: rotate(-10grad);
+}
+#AC{
+  text-shadow: 2px 2px 4px black;
+  font-family: assassin;
+  color: white;
+}
+#jumboredondo{
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+#desc{
+  color: #A9A9A9;
+}
+
+.zoom {
+	overflow: hidden;
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.back-cor{
+  background-color: #414e58;
+}
+.back-cor-2{
+  background-color: #34414c;
+}
+#minimo{
+  font-size: 70%;
+}
+#favorito:visited{
+  background-color: Powderblue;
+}
+#propaganda{
+  background-image: url("../imagens/amazon.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+#propaganda2{
+  background-image: url("../imagens/kabum.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+html {
+  font-size: 1rem;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    p{
+        font-size: 15px;
+    }
+    footer span{
+      font-size: 15px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    p{
+        font-size: 15px;
+    }
+    footer span{
+      font-size: 15px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 14px;
+    }
+    footer span{
+      font-size: 14px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    p{
+        font-size: 15px;
+    }
+    footer span{
+      font-size: 15px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    p{
+        font-size: 12px;
+    }
+    footer span{
+      font-size: 13px;
+    }
+}
+#cor_final{
+  color: LightSlateGray;
+}
+#search_field{
+  border-radius: 20px;
+}
